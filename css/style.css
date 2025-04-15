@@ -1,0 +1,147 @@
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('../fonts/Montserrat-Regular.ttf') format('truetype');
+}
+body {
+    margin: 0px;
+    background-color: white;
+    font-family: Montserrat-Regular;
+}
+.menu-btn {
+    padding: 20px;
+    width: 173px;
+    height: 100%;
+    border-radius: 26px;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+}
+.grad-btn {
+    background: linear-gradient(to right, #9946FF, #5751FF)
+}
+.menu-list {
+    background-color: white;
+
+}
+.menu-list:focus {
+    background: white;
+
+}
+.menu-list:hover {
+    background-color: white;
+}
+.btn-secondary {
+    --mdb-btn-color: white;
+    --mdb-btn-hover-color: white;
+    --mdb-btn-focus-color: white;
+    --mdb-btn-active-color: #d7deeb;
+    --mdb-btn-bg: white;
+}
+.green-text {
+    color: #21A038;
+    font-weight: 700;
+}
+.menu-line {
+    border-color: #21A038;
+    border-width: 2px;
+}
+.header-block {
+    background: linear-gradient(to bottom right, #9A5CE570 44%, #3D1BBCC9 79%);
+    border-radius: 86px;
+}
+.header-title {
+    color: white;
+    font-weight: 700;
+    font-size: 64px;
+    text-align: center;
+}
+.intro-text {
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 30px;
+    width: 70%;
+    color: white;
+    line-height: 120%;
+}
+.btn-header {
+    color: white;
+    border-radius: 26px;
+    font-weight: 700;
+    text-align: center;
+}
+.btn-sign {
+    border: 10px white;
+}
+.slogan-section {
+    margin: 40px 0px;
+    background-color: #B38DE2;
+}
+.slogan-title {
+    font-size: 128px;
+    font-weight: bold;
+    background: linear-gradient(#FFFFFF, #4524BE 79.85%, #3D1BBC 79%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.slogan-text {
+    margin-left: 40px;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.recommendation-section {
+    text-align: center;
+    margin: 30px 0;
+}
+.recommend-title {
+    margin: 0px;
+    color: #4B46AE;
+    font-size: 24px;
+    font-weight: 700;
+}
+.recommend-text {
+    margin: 0px;
+    color: #7D52B2;
+    font-size: 16px;
+}
+.uni-logo {
+    background-color: #B38DE2F0;
+    border: 1px #3D1BBCC9;
+    border-radius: 40px;
+    width: 332px;
+    height: 139px;
+}
+.video-reviews {
+    margin: 40px 0 20px 0;
+}
+
+.video-title {
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+.footer {
+    background-color: #7D52B2C4;
+}
+.copyright {
+    color: #000000;
+    margin: 0px;
+    font-size: 15px;
+    font-weight: 700;
+}
+@media (max-width: 767.98px) {
+    .header-title {
+        font-size: 2.5rem !important;
+    }
+    .intro-text {
+        font-size: 1rem !important;
+    }
+    /* .slogan-title {
+        font-size: 2.5rem !important;
+    } */
+}
+/* @media (min-width: 768px) and (max-width: 1150px) {
+    .slogan-title {
+        font-size: 2.5rem !important;
+    }
+} */
