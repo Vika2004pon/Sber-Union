@@ -146,3 +146,19 @@ body {
     font-size: 15px;
     font-weight: 700;
 }
+.photo-profile {
+    background-color: #D8B7FF;
+    border-radius: 70px;
+    width: 261px;
+    height: 282px;
+}
+.student-name {
+    font-size: 36px;
+    font-weight: 700;
+    color: #000000;
+}
+.profile-link {
+    font-size: 24px;
+    font-weight: 400;
+    color: #4B46AE;
+}
