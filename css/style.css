@@ -238,3 +238,66 @@ body {
     font-size: 36px;
     font-weight: 700;
 }
+.uni-name {
+    text-align: center
+}
+.main-uni-info {
+    background-color: #D8B7FF;
+    border-radius: 78px;
+}
+.main-uni-title {
+    color: #000000;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+}
+.main-uni-info div {
+    color: #000000;
+    font-size: 20px;
+}
+.direct-title {
+    color: #000000;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+}
+.direct-block {
+    background-color: #664BCA;
+}
+.direction {
+    background-color: #B38DE2F0;
+    border-radius: 29px;
+}
+.direct-photo {
+    background-color: #DAD3F3;
+    width: 363px;
+    height: 363px;
+    border-radius: 29px 0px 0px 29px;
+    @media (max-width: 767.98px) {
+        border-radius: 29px 29px 0px 0px !important;
+        width: 100%;
+    }
+}
+.direct-info-title {
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+}
+.direct-info div {
+    color: #5835D9;
+    font-size: 20px;
+    font-weight: 700;
+}
+.btn-direct {
+    padding: 20px 10px;
+    border-radius: 38px;
+    color: white;
+    font-size: 20px;
+}
+.btn-direct-close {
+    background: linear-gradient(#FF4C4C, #810C0C);
+}
+.btn-direct-open {
+    background: linear-gradient(#97D4A2, #21A038);
+}
