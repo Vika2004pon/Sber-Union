@@ -103,6 +103,8 @@ body {
     margin-left: 40px;
     font-size: 36px;
     font-weight: 700;
+    border-width: 2px;
+    border-color: #CECECE;
     @media  (max-width: 1149.98px) {
         font-size: 1rem !important;
     }
@@ -110,32 +112,76 @@ body {
 .recommendation-section {
     text-align: center;
     margin: 30px 0;
+    background: linear-gradient(rgba(100, 100, 100, 0.6), rgba(100, 100, 100, 0.60)), url("../img/students.png") center/cover;
+    @media (max-width: 767.98px) {
+        background: white !important;
+    }
 }
 .recommend-title {
     margin: 0px;
-    color: #4B46AE;
-    font-size: 24px;
+    color: #FFFFFF;
+    font-size: 36px;
     font-weight: 700;
+    @media (max-width: 767.98px) {
+        color: #5835D9 !important;
+        line-height: 110%;
+        margin-bottom: 10px;
+    }
 }
 .recommend-text {
     margin: 0px;
-    color: #7D52B2;
+    color: #5835D9;
     font-size: 16px;
 }
 .uni-logo {
-    background-color: #B38DE2F0;
+    background-color: #DCBFFFF0;
     border: 1px #3D1BBCC9;
     border-radius: 40px;
     width: 332px;
     height: 139px;
 }
+.uni-logo p {
+    text-align: start;
+    color: #000000;
+    font-size: 16px;
+    line-height: 120%;
+}
+.uni-logo-image {
+    width: 63.75px;
+    
+}
+.uni-name {
+    font-weight: 700;
+}
+.review-title {
+    color: #000000;
+    font-size: 40px;
+    font-weight: 700;
+}
+.video-review {
+    background-color: #E1DCE891;
+    max-width: 514px;
+    height: 633.62px;
+    border-radius: 49px;
+}
 .video-reviews {
-    margin: 40px 0 20px 0;
+    margin: 0 0 20px 0;
+    background-color: #664BCA;
 }
 
 .video-title {
     color: #2c3e50;
     margin-bottom: 15px;
+}
+.question-title {
+    color: #5835D9;
+    font-size: 36px;
+    line-height: 120%;
+    font-weight: 700;
+}
+.questions {
+    background-color: #B38DE2BD;
+    border-radius: 34px;
 }
 .footer {
     background-color: #7D52B2C4;
